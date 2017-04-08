@@ -1,0 +1,42 @@
+{
+  "name": "spdx-license-checker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava && npm run check-licenses",
+    "check-licenses": "./bin/spdx-license-checker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phzfi/spdx-license-checker.git"
+  },
+  "keywords": [
+    "license",
+    "license-checker",
+    "spdx",
+    "spdx-license-checker",
+    "checker",
+    "check",
+    "licenses"
+  ],
+  "files": [
+    "index.js",
+    "spdx-license-checker-config.js",
+    "bin",
+    "src"
+  ],
+  "author": "Kristian Lauttamus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phzfi/spdx-license-checker/issues"
+  },
+  "homepage": "https://github.com/phzfi/spdx-license-checker#readme",
+  "dependencies": {
+    "license-checker": "^9.0.2",
+    "spdx-expression-parse": "^1.0.4"
+  },
+  "devDependencies": {
+    "ava": "^0.19.0"
+  }
+}
